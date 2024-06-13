@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    display: grid;
+    gap: 20px;
+    background-color: #fff;
+    padding: 20px;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    /*grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;*/
+}
+
+.box {
+    display: grid;
+    gap: 10px;
+    background-color: #ccc;
+    padding: 20px;
+    border: 1px solid #999;
+}
+
+.box1 {
+    grid-template-columns: 1fr 60% 1fr;
+}
+
+.box2 {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.box3 {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.box4 {
+    grid-template-columns: 3fr 1fr;
+}
+
+.box5 {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.box1--1 {
+    grid-column: 2/-7;
+}
+
+.box1--2 {
+    grid-column: 7/-2;
+}
+
+.box2--1 {
+
+}
+
+.box2--2 {
+
+}
+
+.box2--2 {
+
+}
+
+.box2--3 {
+
+}
+.box2--4 {
+
+}
+.box3--1 {
+
+}
+.box3--2 {
+
+}
+.box3--3 {
+
+}
+.box3--4 {
+
+}
+.box4--1 {
+
+}
+.box4--2 {
+
+}
+.box4--3 {
+
+}
+.box5--1 {
+
+}
+.box5--2 {
+
+}
+.box5--3 {
+
+}
+
+
+.box div {
+    background-color: #eee;
+    padding: 20px;
+    border: 1px solid #999;
+    text-align: center;
+}
